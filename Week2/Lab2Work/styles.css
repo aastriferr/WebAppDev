@@ -1,0 +1,11 @@
+body {
+    background-color: #17FF70;
+}
+p {
+    color:hsl(0, 100%, 55%);
+    padding: 90px;
+}
+img{
+    width: 2000px;
+    height: 70px;
+}
