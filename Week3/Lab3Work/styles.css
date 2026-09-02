@@ -15,9 +15,9 @@ img{
 }
 a:link{color:brown;}
 a:visited{color:burlywood;}
-a:hover{color:palevioletred; border: 30px ridge red; font-size: 300px}
+a:hover{color:palevioletred; border: 30px ridge red; font-size: 300px}/* makes it only slightly bigger*/
 a:active{color:blanchedalmond;}
-tr { padding: 5px; margin:2px;}
+table { padding: 30px; margin:30px;} /*Makes the table look very dumb*/
 .highlight {font-weight: bold; color: #FF0000}
-.table2 { color: #0000FF; font-style: italic;}
+.table2 { color: #0000FF; font-style: italic;} /*italicizes row two */
 #supScriptLarge {font-size: xx-large;}
