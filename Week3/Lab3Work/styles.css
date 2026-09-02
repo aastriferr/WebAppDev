@@ -1,0 +1,23 @@
+body {
+    background-color: #17FF70;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p {
+    color:hsl(0, 100%, 55%);
+    padding: 90px 5px;
+    margin: 15px;
+    font-size: small;
+}
+h1{ font-size: 90px;}
+img{
+    width: 2000px;
+    height: 70px;
+}
+a:link{color:brown;}
+a:visited{color:burlywood;}
+a:hover{color:palevioletred; border: 30px ridge red; font-size: 300px}
+a:active{color:blanchedalmond;}
+tr { padding: 5px; margin:2px;}
+.highlight {font-weight: bold; color: #FF0000}
+.table2 { color: #0000FF; font-style: italic;}
+#supScriptLarge {font-size: xx-large;}

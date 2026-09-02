@@ -1,0 +1,33 @@
+body { background-color: lightblue;}
+
+.highlight { color: red; font-weight: bold;}
+
+#main-header {text-align: center; font-size: 32px;}
+
+p { margin:20px; padding:10px; border: 2px ridge black;}
+
+a:link{color:brown;}
+a:visited{color:burlywood;}
+a:hover{color:orange;}
+a:active{color:blanchedalmond;}
+/* Box model: everything in css has a layered box around it
+                                  margin
+                                    ^
+                                  border
+                                    ^
+                                 padding
+                                    ^
+     margin < border < padding < content > padding > border > margin
+                                    v
+                                 padding
+                                    v
+                                  border
+                                    v
+                                  margin
+
+    
+        a:  link default unvisited
+        a:  visited user has visited
+        a:  hover when the mosue hovers over it
+        a:  active when the link is being clicked
+     */
