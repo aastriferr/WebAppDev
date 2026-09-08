@@ -1,0 +1,19 @@
+body { background-color: #c4effc; font-size: 15px; font-family:Verdana, Geneva, Tahoma, sans-serif;}
+h3 { font-family:Verdana, Geneva, Tahoma, sans-serif;}
+a:hover { color: #ff00bf}
+nav a:hover { color: white;}
+
+p { padding-top: 2px; padding-bottom: 2px;}
+table { border: 1px}
+th {padding: 6px}
+td {padding: 3px}
+li {  display: inline-block; padding: 0px 20px;}
+
+
+.navEntries {background-color: #85d9f3; text-align: center;}
+.highlight {background-color: bisque; text-align: center;}
+.footer { text-align: center;}
+
+#IndexImage {border: 2px ridge black;}
+#tableBG { background-color: white;}
+#name { color: palevioletred; font-weight: bolder;}
