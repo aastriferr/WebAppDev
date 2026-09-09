@@ -1,0 +1,19 @@
+body {
+    background-color: bisque;
+}
+
+
+nav{
+    display: flex;
+    gap:20px; /*instead of margins, gap creates consistent spaces between flex items*/
+}
+
+
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /*forces content to be evenly spaced out*/
+    gap: 20px;
+    flex-wrap: wrap;
+}
