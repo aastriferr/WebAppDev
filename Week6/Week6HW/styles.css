@@ -1,0 +1,42 @@
+/*I know that CSS wasn't necessary, but I added it.
+    The bulk of it was copy-pasted from another assignment,
+    but I did change the colors and font so it is distinct.*/
+
+
+
+body {
+    background-color: rgb(208, 243, 248);
+    color: teal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+main {
+    background-color: rgb(240, 253, 255);
+}
+footer {
+    text-align: center;
+}
+nav { display: flex; 
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly; /*Spaces nav entries out evenly*/
+}
+a { /*Navs are bolded and darker, and have no underline*/
+    text-decoration: none;
+    color: rgb(0, 102, 102);
+    font-weight: bolder;
+}
+a:hover { /* Hover turns font italic and near-white*/
+    font-style: italic;
+    color:  rgb(240, 255, 254);
+}
+ul {
+    list-style-type: none; /*remove bullet icon from list entries*/
+}
+
+
+.HFStyles { padding: 20px 10px; background-color: turquoise;} /*Styles for nav and footer*/
+
+
+/*For formatting the list and h4 as 'smashed together' as they have too much space normally and it looks awkward*/
+#marginH4 {margin-bottom: 0px}
+#marginUL {margin-top: 0px}
