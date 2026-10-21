@@ -1,3 +1,5 @@
+//already commented very well
+
 // Finds the element with ID "title"
 const title = document.getElementById("title");
 // Replaces the text inside <h1>
