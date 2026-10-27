@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stars — DOM Homework</title>
+  <style>
+    /* Changed the color of the highlight */
+    .HighlightClass { background: #666; transition: background 200ms; }
+    .DarkClass { background:#111; color:#eee; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="TitleId">Star Page</h1>
+  </header>
+
+  <main id="MainId">
+    <p class="IntroClass">Welcome! This page will update with JavaScript.
+        <br> Here are some really cool space words!
+    </p>
+
+    <!-- List target you will render into -->
+    <ul id="ListId"></ul>
+
+    <!-- Image you will update -->
+    <img id="Img1Id" src="https://cdn.britannica.com/85/183485-050-C93475CB/Pluto-spacecraft-New-Horizons-July-13-2015.jpg?w=300" alt="A picture of pluto" />
+
+    <br> <!-- I added a break to keep both buttons in line, otherwise the toggle highlight button kept moving-->
+    <!-- Buttons you will wire up -->
+    <button id="HLButton">Toggle Highlight</button>
+    <button id="SwapBtn">Swap Image</button>
+
+
+    <p id="part9">This will be overwritten!</p>
+  </main>
+
+  <footer id="FooterId">© 2025 Victoria Riley</footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
