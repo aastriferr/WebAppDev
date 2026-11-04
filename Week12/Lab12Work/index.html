@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Week 12</title>
+</head>
+<body>
+  <h1>Week 12 Lab</h1>
+
+  <form id="indexForm">
+    <label for="name">Name:</label>
+    <input id="name" type="text" placeholder="Your name" required />
+    <br><br><br>
+    
+    <label for="email">Email:</label>
+    <input id="email" type="email" placeholder="you@example.com" required />
+    <br><br><br>
+
+    <label for="message">Enter Text:</label>
+    <textarea id="message" rows="4" placeholder="Write something..."></textarea>
+    <br><br><br>
+
+
+    <!--My own input-->
+    <label for="lab">Did you enjoy the lab?</label>
+    <select id="lab">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+        <option value="unsure">Unsure</option>
+    </select>
+
+    
+    <br><br><br>
+    <button type="submit">Submit Form</button>
+  </form>
+  
+  <!--Made section results red-->
+  <section id="results" style="color:red;"></section>
+
+  <!--linkage-->
+  <script src="script.js"></script>
+</body>
+</html>

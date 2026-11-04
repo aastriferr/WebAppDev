@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <!--forms are the main way users send info to a website-->
+    <!--forms are wrapped in form tag, and inside are form controls(text boxes, check boxes, buttons, etc)-->
+    <form>
+        <!--inputs go between both form tags-->
+        <!--text is used for short text(name, title, etc)-->
+        <label for="username">Name:</label><!--For is similar to an alt tag, tells screen readers what the input is, label is just a label-->
+        <input id="username" type="text" placeholder="Enter your name"/><!--label for and input id must be the same, type is input type-->
+
+        <br><hr><br>
+
+        <!--email validates proper email format-->
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="you@email.com"/>
+
+        <br><hr><br>
+
+        <!--number is used for numeric input-->
+        <label for="num">Age:</label>
+        <input id="age" type="number" min="0" max="105"/>
+
+        <br><hr><br>
+
+        <!--password is used to obscure password input-->
+        <label for="password">Password:</label>
+        <input id="password" type="password">
+
+        <br><hr><br>
+
+        <!--textarea is used for multi-line input or comments-->
+        <label for="message">Message:</label>
+        <textarea id="message" rows="4" cols="30"></textarea>
+
+        <!--radio is grouped by name attribute, only one can be selected-->
+        <p>Fav Size: </p>
+        <label>
+            <input type="radio" name="size" value="small">
+            Small
+            <input type="radio" name="size" value="medium">
+            Medium
+
+        </label>
+
+
+        <br><hr><br>
+
+        <!--checkbox-->
+        <label>
+            <input type="checkbox" id="subscribe"/>
+            Subscribe to Newsletter?
+        </label>
+
+
+
+        <br><hr><br>
+
+        <!--dropdown, creates a dropdown list-->
+        <label for="color">Fav color?</label>
+        <select id="color">
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="yellow">Yellow</option>
+
+
+
+        </select>
+    </form>
+</body>
+</html>
