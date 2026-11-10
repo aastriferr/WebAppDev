@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Newsletter Signup</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Want to be a part of our newsletter?</h1>
+  <h3>Sign up below:</h3>
+
+  <!--form-->
+  <form id="signup">
+    <label for="fName">Name:</label>
+    <input id="fName" type="text" placeholder="First name here..." required />
+    <br><br><br>
+
+    <label for="lName">Name:</label>
+    <input id="lName" type="text" placeholder="Last Name here..." required />
+    <br><br><br>
+    
+    <label for="email">Email:</label>
+    <input id="email" type="email" placeholder="you@example.com" required />
+    <br><br><br>
+
+    <label for="marketing">Do you want to recieve marketing emails?</label>
+    <select id="marketing">
+        <option value="Yes">Yes, I want to recieve marketing emails.</option>
+        <option value="No">No, I do not want to recieve marketing emails.</option>
+    </select>
+    <br><br><br>
+
+    <!--tried to do discovery with a radio button but it required more in depth code-->
+    <label for="discovery">How did you hear about us?</label>
+    <select id="discovery">
+        <option value="Internet Promotions">Internet Promotions</option>
+        <option value="Social Media">Social Media</option>
+        <option value="Friends/Family">Friends/Family</option>
+        <option value="Other">Other</option>
+    </select>
+    <br><br><br>
+
+    <label for="message">If you answered 'Other', explain here:</label>
+    <textarea id="message" rows="4" placeholder="Explain..."></textarea>
+    <br><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+  
+  <section id="results" style="color:red;"></section>
+
+  <!--linkage-->
+  <script src="script.js"></script>
+</body>
+</html>
