@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 13 - Form Validation</title>
+
+    <style>
+        .error {
+            color: red;
+        }
+
+        .error2 {
+            color: blue;
+        }
+
+        .success {
+            color: green;
+        }
+
+        form {
+            display: grid;
+            gap: 10px;
+            max-width: 400px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Contact Form</h1>
+
+
+    <h3>Note: Red errors are thrown by the submit events.</h3>
+    <h3>Blue errors are thrown by the blur events.</h3>
+
+    <!-- Create your form here -->
+    <form id="contactForm" novalidate>
+        <label for="name">Name:</label>
+        <!--I originally had the required toggle, but they wouldnt let the JS load my error message-->
+        <input id="name" type="text" placeholder="Name here..." />
+        <p id="nameError" class="error"></p>
+        <p id="nError" class="error2"></p>
+
+
+
+        <label for="email">Email:</label>
+        <!--same for the required toggle here, so i removed it-->
+        <input id="email" type="email" placeholder="you@example.com" />
+        <p id="emailError" class="error"></p>
+        <p id="eError" class="error2"></p>
+
+        <label for="phone">Phone Number:</label>
+        <input id="phone" type="text" placeholder="EX: 123-456-7890" />
+        <p>You must type the hyphens yourself within the textbox.</p>
+        <p id="phoneError" class="error"></p>
+        <p id="pError" class="error2"></p>
+
+
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <p id="validation" class="success"></p>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
